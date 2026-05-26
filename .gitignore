@@ -9,6 +9,26 @@ target/
 app
 *.dSYM/
 
+# Go build artifacts
+*.test
+*.prof
+**/selenium_go/selenium_go
+**/selenium_go/main
+
+# Wails & Frontend build artifacts
+**/node_modules/
+**/dist/
+**/build/bin/
+**/build/darwin/
+**/build/windows/
+**/build/linux/
+**/*.json.md5
+.wails/
+wails.json.backup
+**/myproject
+**/myproject.exe
+**/myproject.app/
+
 # IDEs and editors
 .vscode/
 .idea/
@@ -26,4 +46,6 @@ app
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+
 
